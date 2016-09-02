@@ -31,3 +31,11 @@ start nginx
 link nginx
  
     type localhost in browser 
+    
+add third module to nginx
+
+    ./configure --add-module=/path/to/module1/source
+    make
+    /usr/local/nginx/sbin/nginx -s stop
+    cp objs/nginx /usr/local/nginx/sbin/nginx
+    /usr/local/nginx/sbin/nginx
