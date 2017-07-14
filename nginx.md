@@ -1,11 +1,11 @@
-install prce
+install pcre
 
     sudo apt-get update
-    sudo apt-get libprce3 libprce3-dev
+    sudo apt-get install libpcre3 libpcre3-dev
   
 install nginx
 
-    download [ngix](http://nginx.org/en/download.html)
+    download [nginx](http://nginx.org/en/download.html)
     extract 
     ./configure
     make
