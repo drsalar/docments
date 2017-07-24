@@ -1,6 +1,6 @@
 # Linux下的tar压缩解压缩命令详解
 
-**tar**
+## tar
 
 -c: 建立压缩档案
 -x：解压
@@ -63,7 +63,7 @@ unrar e file.rar //解压rar
 
 unzip file.zip //解压zip
 
-总结
+## 总结
 
 1、*.tar 用 tar -xvf 解压
 
